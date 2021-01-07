@@ -797,12 +797,11 @@ footer .onlineLink a::after{content:'';display:block;position:absolute;width:15p
 .eventSection .eventcontent .eventInfo span{background:#f4f5b6;padding:0 5px;} 
 
 .event01 .eventcontent{width:1200px;margin:0 auto;}
-.zoomEvent{padding:90px 0;height:508px;font-size:0;}
-.zoomEvent .zoomList{display:inline-block;position:relative;width:378px;height:378px;margin-left:28px;border-radius:30px;}
+.zoomEvent{padding:90px 0;height:508px;font-size:0;display: flex;justify-content: space-between;}
+.zoomEvent .zoomList{display:inline-block;position:relative;width:378px;height:378px;border-radius:30px;}
 .zoomEvent .zoomList .zoomSec{position:absolute;top:50%;left:50%;width:378px;height:378px;transform:translate(-50%,-50%);overflow:hidden;background:url(/images/smb/event/zoom_event01_on.png) no-repeat left top #fff;background-size:cover;border-radius:30px;animation: zoomOutEvent 300ms both; animation-delay: 100ms;border:0px solid #4a9edd;}
 .zoomEvent .zoomList02 .zoomSec{background-image:url(/images/smb/event/zoom_event02_on.png);border:0px solid #2e54ae;}
 .zoomEvent .zoomList03 .zoomSec{background-image:url(/images/smb/event/zoom_event03_on.png);border:0px solid #209f73;}
-.zoomEvent .zoomList:first-child{margin-left:0;}
 .zoomEvent .zoomList .zoomTitle{position:absolute;top:50px;left:50%;width:100%;transform:translateX(-50%);font-size:24px;line-height:28px;color:#fff;transition:all 450ms;}
 .zoomEvent .zoomList .zoomTitle span{font-size:16px;transition:all 450ms;}
 .zoomEvent .quantity{position:absolute;top:280px;left:50%;width:100%;transform:translateX(-50%);opacity:0;transition:all 200ms;}
@@ -827,8 +826,7 @@ footer .onlineLink a::after{content:'';display:block;position:absolute;width:15p
 .tryEvent .eventcontent a{display:inline-block;border:0;width:240px;height:72px;line-height:72px;border-radius:36px;font-size:20px;color:#1e375a;font-weight:bold;text-align:center;background:#fff;}
 
 .winProduct{width:1200px;margin:0 auto;padding-top:88px;font-size:0;}
-.winProduct p{display:inline-block;margin-left:70px;}
-.winProduct p:first-child{margin-left:0;}
+.winProduct p{display:inline-block;}
 
 .event02 .btnWarp{padding:80px 0 200px; }
 .event02 .btnWarp a{display:inline-block;height:72px;line-height:72px;padding:0 50px;border-radius:36px;background:#1e375a;color:#fff;font-size:20px;font-weight:bold;color:#fff;}
